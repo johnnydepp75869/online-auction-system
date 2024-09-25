@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Section Styling */
+.header-section {
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.logo strong {
+  font-size: 1.5rem;
+  color: #333;
+  background-color: #d9d9d9; /* Background for the secure auction text */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  padding: 1rem 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav .nav-link {
+  margin-right: 1rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn, .btn-outline, .btn-small {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #007BFF;
+  color: #007BFF;
+  border-radius: 4px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-text {
+  max-width: 50%;
+}
+
+.image-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.auction-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.features, .auctions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.feature-icon {
+  width: 60px;  /* Set the width of the icon */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 1rem; /* Space below the icon */
+  display: block; /* Ensures it sits on its own line */
+  margin-left: auto; /* Center align the icon horizontally */
+  margin-right: auto;
+}
+
+.feature-box, .auction-item {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+  border-top: 1px solid #ddd; /* Top border for separation */
+}
+
+.footer-logo {
+  width: 40px;  /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem; /* Spacing between footer links */
+}
+
+.footer-links a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
